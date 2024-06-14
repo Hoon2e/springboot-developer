@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: hello-spring
+    datasource:
+        url: jdbc:h2:mem:testdb
+        username: sa
+    h2:
+        console:
+            enabled: true
+    jpa:
+        defer-datasource-initialization: true
+    sql:
+        init:
+            mode: always
+jwt:
+    issuer: ajufresh@gmail.com
+    secret_key: study-springboot
